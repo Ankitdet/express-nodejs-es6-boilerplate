@@ -1,0 +1,27 @@
+{
+    "name": "expressjs-structure",
+    "version": "1.0.0",
+    "description": "sample demo express project",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha 'tests/**/*.test.js' --recursive --timeout 60000 --exit",
+        "dev": "env-cmd -f .env nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "16.0.3",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "7.20.2",
+        "chai": "4.3.7",
+        "chai-http": "4.3.0",
+        "env-cmd": "10.1.0",
+        "mocha": "10.2.0",
+        "nodemon": "2.0.21"
+    }
+}
